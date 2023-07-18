@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/assets/icons/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dan Chui - Web Developer</title>
+  </head>
+  <body>
+    <section class="header" id="navbar">
+      <header>
+        <nav class="nav">
+          <a href="index.html"
+            ><img
+              src="/assets/icons/logo.png"
+              alt="logo"
+              id="spin"
+              title="danchui.dev"
+          /></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-window-close" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+          <h1>Dan Chui</h1>
+          <h3>Web Developer</h3>
+          <div class="button">
+            <a
+              href="https://github.com/dan-chui"
+              target="_blank"
+              class="btn1 bounce"
+              title="GitHub"
+              ><span><i class="fa-brands fa-github"></i></span
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/danchui/"
+              target="_blank"
+              class="btn1 bounce"
+              title="LinkedIn"
+              ><span><i class="fa-brands fa-linkedin-in"></i></span
+            ></a>
+            <a
+              href="mailto:contact@danchui.dev"
+              target="_blank"
+              class="btn1 bounce"
+              title="contact@danchui.dev"
+              ><span><i class="fa-regular fa-envelope"></i></span
+            ></a>
+          </div>
+        </div>
+      </header>
+      <div class="arrow scroll">
+        <a href="#about" title="Scroll"
+          ><i class="fa-solid fa-arrow-down"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about wrapper" id="about">
+      <div class="main-text">
+        <h1>My Advantage</h1>
+        <p>
+          Hi there - thanks for stopping by! I am a Front-End Web Developer who
+          is passionate about lifelong learning. Leveraging JavaScript and
+          modern frameworks, I focus on blending my technical skills with my
+          creative eye to bring designs to life.
+        </p>
+
+        <p>
+          Beyond Web Development, I have commended work experiences in the
+          Finance and Education fields. I also love Photography and I am a Getty
+          Images Contributor. My best moment to date was having an image be the
+          official Microsoft Windows Login background!
+        </p>
+
+        <p>
+          Feel free to contact me to see if we can build amazing things
+          together!
+        </p>
+      </div>
+      <div class="row">
+        <div class="skills-col" data-aos="fade-right" data-aos-delay="200">
+          <h3>Front-End</h3>
+          <div class="s-icons">
+            <img
+              src="/assets/icons/html5-original.svg"
+              alt="HTML"
+              title="HTML"
+            />
+            <img src="/assets/icons/css3-original.svg" alt="CSS" title="CSS" />
+            <img
+              src="/assets/icons/javascript-original.svg"
+              alt="JavaScript"
+              title="JavaScript"
+            />
+            <img
+              src="/assets/icons/bootstrap-original.svg"
+              alt="Bootstrap"
+              title="Bootstrap"
+            />
+            <img
+              src="/assets/icons/sass-original.svg"
+              alt="Sass"
+              title="Sass"
+            />
+            <img
+              src="/assets/icons/tailwindcss-plain.svg"
+              alt="Tailwind CSS"
+              title="Tailwind CSS"
+            />
+            <img
+              src="/assets/icons/react-original.svg"
+              alt="React"
+              title="React.js"
+            />
+            <img
+              src="/assets/icons/angularjs-original.svg"
+              alt="Angular"
+              title="Angular.js"
+            />
+          </div>
+        </div>
+        <div class="skills-col" data-aos="fade-left" data-aos-delay="200">
+          <h3>Back-End</h3>
+          <div class="s-icons">
+            <img
+              src="/assets/icons/typescript-original.svg"
+              alt="TypeScript"
+              title="TypeScript"
+            />
+            <img
+              src="/assets/icons/express-original.svg"
+              alt="Express.js"
+              title="Express.js"
+            />
+            <img
+              src="/assets/icons/nodejs-original.svg"
+              alt="Node.js"
+              title="Node.js"
+            />
+            <img
+              src="/assets/icons/firebase-plain.svg"
+              alt="Firebase"
+              title="Firebase"
+            />
+            <img
+              src="/assets/icons/npm-original-wordmark.svg"
+              alt="npm"
+              title="npm"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="main-text">
+        <h1>Latest Projects</h1>
+      </div>
+      <div class="portfolio-content wrapper" data-aos="fade-in">
+        <div class="row1" data-aos="fade-in" data-aos-delay="100">
+          <img
+            src="/assets/portfolio logos/Amazonian - Featured.svg"
+            alt="project1"
+            title="Amazonian"
+          />
+          <div class="layer">
+            <h4>Amazonian</h4>
+            <p>
+              Shop for the absolute finest products.<br /><br />React.js,
+              Node.js, Express.js, TypeScript, Tailwind CSS, Stripe API
+            </p>
+            <div class="portfolio-icons">
+              <a
+                href="https://github.com/dan-chui/amazonian-frontend"
+                target="_blank"
+                class="bounce"
+                ><i class="fa-brands fa-github"></i>Code</a
+              >
+              <a
+                href="https://amazonian.onrender.com"
+                target="_blank"
+                class="bounce"
+                ><i class="fa-solid fa-share"></i>Visit</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="row1" data-aos="fade-in" data-aos-delay="250">
+          <img
+            src="/assets/portfolio logos/Clips - Play - Featured.svg"
+            alt="project2"
+            title="Clips"
+          />
+          <div class="layer">
+            <h4>Clips</h4>
+            <p>
+              Share your favorite mini video clips.<br /><br />Angular.js,
+              TypeScript, FFmpeg, Tailwind CSS, Firebase
+            </p>
+            <div class="portfolio-icons">
+              <a
+                href="https://github.com/dan-chui/angular-clips"
+                target="_blank"
+                class="bounce"
+                ><i class="fa-brands fa-github"></i>Code</a
+              >
+              <a
+                href="https://clips-dan-chui.vercel.app/"
+                target="_blank"
+                class="bounce"
+                ><i class="fa-solid fa-share"></i>Visit</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="row1" data-aos="fade-in" data-aos-delay="400">
+          <img
+            src="/assets/portfolio logos/Popcorn Magic.svg"
+            alt="project3"
+            title="Popcorn Magic"
+          />
+          <div class="layer">
+            <h4>Popcorn Magic</h4>
+            <p>Explore the latest movies!<br /><br />JavaScript, TMDb API</p>
+            <div class="portfolio-icons">
+              <a
+                href="https://github.com/dan-chui/popcorn-magic"
+                target="_blank"
+                class="bounce"
+                ><i class="fa-brands fa-github"></i>Code</a
+              >
+              <a
+                href="https://popcorn-magic.vercel.app/"
+                target="_blank"
+                class="bounce"
+                ><i class="fa-solid fa-share"></i>Visit</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="row1" data-aos="fade-in" data-aos-delay="550">
+          <img
+            src="/assets/portfolio logos/Titans Advisory - Light Blue.svg"
+            alt="project4"
+            title="Titans Advisory"
+          />
+          <div class="layer">
+            <h4>Titans Advisory</h4>
+            <p>A world-class Consulting firm.<br /><br />JavaScript</p>
+            <div class="portfolio-icons">
+              <a
+                href="https://github.com/dan-chui/titans-advisory"
+                target="_blank"
+                class="bounce"
+                ><i class="fa-brands fa-github"></i>Code</a
+              >
+              <a
+                href="https://titans-advisory.vercel.app/"
+                target="_blank"
+                class="bounce"
+                ><i class="fa-solid fa-share"></i>Visit</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="row1" data-aos="fade-in" data-aos-delay="700">
+          <img
+            src="/assets/portfolio logos/Banksie.svg"
+            alt="project5"
+            title="Banksie Loans"
+          />
+          <div class="layer">
+            <h4>Banksie Loans</h4>
+            <p>Mortgage loan payment expert.<br /><br />JavaScript</p>
+            <div class="portfolio-icons">
+              <a
+                href="https://github.com/dan-chui/banksie-loans"
+                target="_blank"
+                class="bounce"
+                ><i class="fa-brands fa-github"></i>Code</a
+              >
+              <a
+                href="https://banksie-loans.vercel.app/"
+                target="_blank"
+                class="bounce"
+                ><i class="fa-solid fa-share"></i>Visit</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="row1" data-aos="fade-in" data-aos-delay="850">
+          <img
+            src="/assets/portfolio logos/Nomadic.svg"
+            alt="project6"
+            title="Nomadic Travel + Tours"
+          />
+          <div class="layer">
+            <h4>Nomadic Travel + Tours</h4>
+            <p>Go beyond!<br /><br />JavaScript</p>
+            <div class="portfolio-icons">
+              <a
+                href="https://github.com/dan-chui/nomadic-travel"
+                target="_blank"
+                class="bounce"
+                ><i class="fa-brands fa-github"></i>Code</a
+              >
+              <a
+                href="https://nomadic-travel.vercel.app/"
+                target="_blank"
+                class="bounce"
+                ><i class="fa-solid fa-share"></i>Visit</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="main-text">
+        <h1>Let's Connect!</h1>
+        <span>I look forward to hearing from you!</span>
+        <br />
+        <span>&nbsp;</span>
+        <div class="button">
+          <a
+            href="https://github.com/dan-chui"
+            target="_blank"
+            class="btn1 bounce"
+            title="GitHub"
+            ><span><i class="fa-brands fa-github"></i></span
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/danchui/"
+            target="_blank"
+            class="btn1 bounce"
+            title="LinkedIn"
+            ><span><i class="fa-brands fa-linkedin-in"></i></span
+          ></a>
+          <a
+            href="mailto:contact@danchui.dev"
+            target="_blank"
+            class="btn1 bounce"
+            title="contact@danchui.dev"
+            ><span><i class="fa-regular fa-envelope"></i></span
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="end">
+      <div class="arrow">
+        <a href="#" title="Top"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </section>
+  </body>
+
+  <!-- Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      delay: 200,
+      duration: 1000,
+      easing: "ease",
+      once: false,
+    });
+  </script>
+  <script defer src="/script.js"></script>
+</html>
