@@ -260,7 +260,7 @@ h1 {
 
 .portfolio-content {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   align-items: center;
   gap: 1.5rem;
   margin: 1.5rem;
@@ -426,35 +426,6 @@ h1 {
 }
 
 /* Media Queries */
-@media (min-width: 2560px) {
-  .wrapper {
-    max-width: 2560px;
-    width: 100%;
-    margin: 0 auto;
-  }
-  .main-text p {
-    text-align: justify;
-  }
-  #portfolio {
-    margin: 40px 20px;
-  }
-  section {
-    padding: 30px 3%;
-  }
-  .end {
-    padding: 15px 3%;
-  }
-}
-
-@media only screen and (min-width: 1600px) {
-  nav {
-    width: 90%;
-  }
-  nav img {
-    margin-left: 320px;
-  }
-}
-
 @media (max-width: 700px) {
   nav img {
     width: 40px;
@@ -506,6 +477,24 @@ h1 {
   }
 }
 
+@media (min-width: 270px) and (max-width: 920px) {
+  .about {
+    margin: 15px auto 5px auto;
+    text-align: center;
+  }
+  .main-text {
+    padding-top: 5px;
+  }
+  .main-text p {
+    line-height: 1.5rem;
+    font-size: 0.98rem;
+    text-align: left;
+  }
+  .main-text span {
+    font-size: 0.95rem;
+  }
+}
+
 @media (max-width: 1205px) {
   #portfolio {
     margin: 40px 20px;
@@ -513,6 +502,35 @@ h1 {
   .portfolio-content {
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
     margin: 1.5rem 0.5rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .wrapper {
+    max-width: 2560px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main-text p {
+    text-align: justify;
+  }
+  #portfolio {
+    margin: 40px 20px;
+  }
+  section {
+    padding: 30px 3%;
+  }
+  .end {
+    padding: 15px 3%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  nav {
+    width: 90%;
+  }
+  nav img {
+    margin-left: 320px;
   }
 }
 
@@ -530,23 +548,5 @@ h1 {
     font-size: 26px;
     width: 45px;
     height: 45px;
-  }
-}
-
-@media (min-width: 270px) and (max-width: 920px) {
-  .about {
-    margin: 15px auto 5px auto;
-    text-align: center;
-  }
-  .main-text {
-    padding-top: 5px;
-  }
-  .main-text p {
-    line-height: 1.5rem;
-    font-size: 0.98rem;
-    text-align: left;
-  }
-  .main-text span {
-    font-size: 0.95rem;
   }
 }
