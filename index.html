@@ -339,6 +339,10 @@
       duration: 1000,
       easing: "ease",
       once: false,
+      disable: function () {
+        var maxWidth = 800;
+        return window.innerWidth < maxWidth;
+      },
     });
   </script>
   <script defer src="/script.js"></script>

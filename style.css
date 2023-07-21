@@ -181,10 +181,10 @@ nav img:hover {
     transform: translateY(0);
   }
   40% {
-    transform: translateY(-8px);
+    transform: translateY(-6px);
   }
   60% {
-    transform: translateY(-4px);
+    transform: translateY(-2px);
   }
 }
 
@@ -426,7 +426,28 @@ h1 {
 }
 
 /* Media Queries */
+@media (max-width: 1440px) {
+  .layer h4 {
+    font-size: 36px;
+  }
+  .layer p {
+    font-size: 0.91rem;
+  }
+  .layer a {
+    font-size: 0.91rem;
+  }
+  .layer i {
+    font-size: 26px;
+    width: 45px;
+    height: 45px;
+  }
+}
+
 @media (max-width: 700px) {
+  * {
+    overflow-x: hidden;
+  }
+
   nav img {
     width: 40px;
     margin-top: 25px;
@@ -439,6 +460,7 @@ h1 {
   }
   .main-text h1 {
     font-size: 42px;
+    margin-top: 35px;
   }
   .skills-col h3 {
     font-size: 30px;
@@ -450,9 +472,9 @@ h1 {
     position: fixed;
     background: var(--highlight-color);
     height: 100vh;
-    width: 200px;
+    width: 180px;
     top: 0;
-    right: -210px;
+    right: -180px;
     text-align: left;
     z-index: 2;
     transition: 1s;
@@ -487,11 +509,11 @@ h1 {
   }
   .main-text p {
     line-height: 1.5rem;
-    font-size: 0.98rem;
+    font-size: 1rem;
     text-align: left;
   }
   .main-text span {
-    font-size: 0.98rem;
+    font-size: 1rem;
   }
 }
 
@@ -531,22 +553,5 @@ h1 {
   }
   nav img {
     margin-left: 320px;
-  }
-}
-
-@media (max-width: 1440px) {
-  .layer h4 {
-    font-size: 36px;
-  }
-  .layer p {
-    font-size: 0.9rem;
-  }
-  .layer a {
-    font-size: 0.9rem;
-  }
-  .layer i {
-    font-size: 26px;
-    width: 45px;
-    height: 45px;
   }
 }
