@@ -426,7 +426,7 @@ h1 {
 }
 
 /* Media Queries */
-@media (max-width: 1440px) {
+@media (max-width: 910px) {
   .layer h4 {
     font-size: 36px;
   }
@@ -438,6 +438,40 @@ h1 {
   }
   .layer i {
     font-size: 26px;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (min-width: 911px) {
+  .layer h4 {
+    font-size: 32px;
+  }
+  .layer p {
+    font-size: 0.86rem;
+  }
+  .layer a {
+    font-size: 0.86rem;
+  }
+  .layer i {
+    font-size: 24px;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (min-width: 1205px) and (max-width: 1340px) {
+  .layer h4 {
+    font-size: 22px;
+  }
+  .layer p {
+    font-size: 0.7rem;
+  }
+  .layer a {
+    font-size: 0.7rem;
+  }
+  .layer i {
+    font-size: 0.7rem;
     width: 45px;
     height: 45px;
   }
@@ -522,7 +556,7 @@ h1 {
     margin: 40px 20px;
   }
   .portfolio-content {
-    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
     margin: 1.5rem 0.5rem;
   }
 }
