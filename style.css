@@ -14,7 +14,7 @@
   --bg-color: linear-gradient(to right, #bcabe7, #cdc8c8);
   --text-color: black;
   --second-text-color: whitesmoke;
-  --highlight-color: rgb(236, 120, 139);
+  --highlight-color: rgb(239, 135, 152);
   --box-color: rgb(248, 43, 43);
   --box-color2: rgb(226, 226, 226);
 }
@@ -24,7 +24,7 @@ html {
 }
 
 .header {
-  min-height: 100vh;
+  min-height: 100dvh;
   width: 100%;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.4),
@@ -486,7 +486,7 @@ h1 {
   .nav-links {
     position: fixed;
     background: var(--highlight-color);
-    height: 100vh;
+    height: 100dvh;
     width: 180px;
     top: 0;
     right: -180px;
