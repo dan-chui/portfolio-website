@@ -458,7 +458,7 @@ h1 {
   }
 }
 
-@media (min-width: 1205px) and (max-width: 1340px) {
+@media (min-width: 1205px) and (max-width: 1600px) {
   .layer h4 {
     font-size: 22px;
   }
