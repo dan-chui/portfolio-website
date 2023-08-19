@@ -14,7 +14,7 @@
   --bg-color: linear-gradient(to right, #bcabe7, #cdc8c8);
   --text-color: black;
   --second-text-color: whitesmoke;
-  --highlight-color: rgb(239, 135, 152);
+  --highlight-color: rgb(236, 123, 141);
   --box-color: rgb(248, 43, 43);
   --box-color2: rgb(226, 226, 226);
 }
@@ -426,16 +426,33 @@ h1 {
 
 @media (min-width: 911px) {
   .layer h4 {
-    font-size: 32px;
+    font-size: 42px;
   }
   .layer p {
-    font-size: 0.84rem;
+    font-size: 0.95rem;
   }
   .layer a {
-    font-size: 0.84rem;
+    font-size: 0.95rem;
   }
   .layer i {
     font-size: 24px;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (min-width: 1020px) and (max-width: 1205px) {
+  .layer h4 {
+    font-size: 36px;
+  }
+  .layer p {
+    font-size: 0.8rem;
+  }
+  .layer a {
+    font-size: 0.8rem;
+  }
+  .layer i {
+    font-size: 0.8rem;
     width: 45px;
     height: 45px;
   }
