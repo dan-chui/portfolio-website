@@ -11,10 +11,10 @@
 }
 
 :root {
-  --bg-color: linear-gradient(to right, #bcabe7, #cdc8c8);
+  --bg-color: linear-gradient(to right, #c1b3d5, #cdc8c8);
   --text-color: black;
   --second-text-color: whitesmoke;
-  --highlight-color: rgb(236, 123, 141);
+  --highlight-color: rgb(243, 119, 119);
   --box-color: rgb(248, 43, 43);
   --box-color2: rgb(226, 226, 226);
 }
@@ -27,8 +27,8 @@ html {
   min-height: 100dvh;
   width: 100%;
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.4),
-      rgba(255, 255, 255, 0.8)
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.2)
     ),
     url(/assets/background.webp);
   background-position: center;
