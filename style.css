@@ -14,7 +14,7 @@
   --bg-color: linear-gradient(to right, #c1b3d5, #d3d0d0);
   --text-color: black;
   --second-text-color: whitesmoke;
-  --highlight-color: rgb(248, 143, 143);
+  --highlight-color: rgb(250, 149, 149);
   --box-color: rgb(248, 43, 43);
   --box-color2: rgb(226, 226, 226);
 }
@@ -187,6 +187,7 @@ h1 {
 
 .row {
   margin-top: 5%;
+  margin-bottom: -7%;
   display: flex;
   justify-content: space-between;
 }
@@ -256,6 +257,7 @@ h1 {
 
 .main-text h1 {
   user-select: none;
+  margin-bottom: 30px;
 }
 
 .main-text p {
@@ -593,9 +595,9 @@ h1 {
   }
 }
 
-@media (min-width: 2560px) {
+@media (min-width: 1701px) {
   .wrapper {
-    max-width: 2560px;
+    max-width: 1701px;
     width: 100%;
     margin: 0 auto;
   }
@@ -611,9 +613,23 @@ h1 {
   .end {
     padding: 15px 3%;
   }
+  .layer h4 {
+    font-size: 34px;
+  }
+  .layer p {
+    font-size: 0.98rem;
+  }
+  .layer a {
+    font-size: 0.98rem;
+  }
+  .layer i {
+    font-size: 1.1rem;
+    width: 45px;
+    height: 45px;
+  }
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1500px) {
   nav {
     width: 90%;
   }
