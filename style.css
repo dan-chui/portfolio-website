@@ -422,12 +422,7 @@ h1 {
 }
 
 /* Media Queries */
-
 @media (max-width: 700px) {
-  * {
-    overflow-x: hidden;
-  }
-
   nav img {
     width: 40px;
     margin-top: 25px;
@@ -494,17 +489,6 @@ h1 {
   }
   .main-text span {
     font-size: 1rem;
-  }
-}
-
-@media (max-width: 1205px) {
-  #portfolio {
-    margin: 40px 20px;
-  }
-  .portfolio-content1,
-  .portfolio-content2 {
-    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
-    margin: 1.5rem 0.5rem;
   }
 }
 
@@ -650,5 +634,16 @@ h1 {
   }
   nav img {
     margin-left: 320px;
+  }
+}
+
+@media (max-width: 1205px) {
+  #portfolio {
+    margin: 40px 20px;
+  }
+  .portfolio-content1,
+  .portfolio-content2 {
+    grid-template-columns: repeat(auto-fit, minmax(275px, auto));
+    margin: 1.5rem;
   }
 }
