@@ -178,6 +178,11 @@ nav .fa {
   width: 75%;
   margin: 25px auto 5px auto;
   text-align: center;
+  overflow: hidden;
+}
+
+.about::-webkit-scrollbar {
+  display: none;
 }
 
 h1 {
@@ -240,12 +245,20 @@ h1 {
   margin-top: -30px;
 }
 
-.portfolio-content {
+.portfolio-content1 {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 1.5rem;
   margin: 1.5rem;
+}
+
+.portfolio-content2 {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  align-items: center;
+  gap: 1.5rem;
+  margin: 0, 1.5rem, 1.5rem, 1.5rem;
 }
 
 .main-text {
@@ -409,107 +422,6 @@ h1 {
 }
 
 /* Media Queries */
-@media (max-width: 910px) {
-  .layer h4 {
-    font-size: 36px;
-  }
-  .layer p {
-    font-size: 0.9rem;
-  }
-  .layer a {
-    font-size: 0.9rem;
-  }
-  .layer i {
-    font-size: 26px;
-    width: 45px;
-    height: 45px;
-  }
-}
-
-@media screen and (min-width: 911px) and (max-width: 1019px) {
-  .layer h4 {
-    font-size: 42px;
-  }
-  .layer p {
-    font-size: 0.85rem;
-  }
-  .layer a {
-    font-size: 0.85rem;
-  }
-  .layer i {
-    font-size: 1rem;
-    width: 45px;
-    height: 45px;
-  }
-}
-
-@media screen and (min-width: 1020px) and (max-width: 1205px) {
-  .layer h4 {
-    font-size: 36px;
-  }
-  .layer p {
-    font-size: 0.8rem;
-  }
-  .layer a {
-    font-size: 0.8rem;
-  }
-  .layer i {
-    font-size: 1.1rem;
-    width: 45px;
-    height: 45px;
-  }
-}
-
-@media screen and (min-width: 1206px) and (max-width: 1405px) {
-  .layer h4 {
-    font-size: 22px;
-  }
-  .layer p {
-    font-size: 0.7rem;
-  }
-  .layer a {
-    font-size: 0.7rem;
-  }
-  .layer i {
-    font-size: 0.9rem;
-    width: 40px;
-    height: 40px;
-  }
-}
-
-@media screen and (min-width: 1406px) and (max-width: 1600px) {
-  .layer h4 {
-    font-size: 26px;
-  }
-  .layer p {
-    font-size: 0.85rem;
-  }
-  .layer a {
-    font-size: 0.85rem;
-  }
-  .layer i {
-    font-size: 1rem;
-    width: 45px;
-    height: 45px;
-  }
-}
-
-@media screen and (min-width: 1601px) and (max-width: 1700px) {
-  .layer h4 {
-    font-size: 30px;
-  }
-  .layer p {
-    font-size: 0.9rem;
-  }
-  .layer a {
-    font-size: 0.9rem;
-  }
-  .layer i {
-    font-size: 1.1rem;
-    width: 45px;
-    height: 45px;
-  }
-}
 
 @media (max-width: 700px) {
   * {
@@ -589,7 +501,8 @@ h1 {
   #portfolio {
     margin: 40px 20px;
   }
-  .portfolio-content {
+  .portfolio-content1,
+  .portfolio-content2 {
     grid-template-columns: repeat(auto-fit, minmax(280px, auto));
     margin: 1.5rem 0.5rem;
   }
@@ -614,16 +527,118 @@ h1 {
     padding: 15px 3%;
   }
   .layer h4 {
-    font-size: 34px;
+    font-size: 42px;
   }
   .layer p {
-    font-size: 0.98rem;
+    font-size: 1.1rem;
   }
   .layer a {
-    font-size: 0.98rem;
+    font-size: 1.1rem;
   }
   .layer i {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1700px) {
+  .layer h4 {
+    font-size: 36px;
+  }
+  .layer p {
+    font-size: 0.95rem;
+  }
+  .layer a {
+    font-size: 0.95rem;
+  }
+  .layer i {
+    font-size: 1.2rem;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media screen and (min-width: 1406px) and (max-width: 1600px) {
+  .layer h4 {
+    font-size: 32px;
+  }
+  .layer p {
+    font-size: 0.9rem;
+  }
+  .layer a {
+    font-size: 0.9rem;
+  }
+  .layer i {
+    font-size: 1.2rem;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media screen and (min-width: 1206px) and (max-width: 1405px) {
+  .layer h4 {
+    font-size: 30px;
+  }
+  .layer p {
+    font-size: 0.88rem;
+  }
+  .layer a {
+    font-size: 0.88rem;
+  }
+  .layer i {
+    font-size: 1.2rem;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1205px) {
+  .layer h4 {
+    font-size: 30px;
+  }
+  .layer p {
+    font-size: 0.8rem;
+  }
+  .layer a {
+    font-size: 0.8rem;
+  }
+  .layer i {
+    font-size: 1.2rem;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media screen and (min-width: 911px) and (max-width: 1019px) {
+  .layer h4 {
+    font-size: 30px;
+  }
+  .layer p {
+    font-size: 0.78rem;
+  }
+  .layer a {
+    font-size: 0.78rem;
+  }
+  .layer i {
+    font-size: 1.2rem;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 910px) {
+  .layer h4 {
+    font-size: 28px;
+  }
+  .layer p {
+    font-size: 0.72rem;
+  }
+  .layer a {
+    font-size: 0.72rem;
+  }
+  .layer i {
+    font-size: 1.2rem;
     width: 45px;
     height: 45px;
   }
