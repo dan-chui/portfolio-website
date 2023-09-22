@@ -24,7 +24,7 @@ html {
 }
 
 .header {
-  min-height: 100dvh;
+  min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.8),
@@ -48,7 +48,7 @@ nav img {
 }
 
 nav img:hover {
-  scale: 1.2;
+  transform: scale(1.2);
 }
 
 #spin:hover {
@@ -166,7 +166,7 @@ nav img:hover {
 }
 
 .btn1 span i:hover {
-  scale: 1.2;
+  transform: scale(1.2);
 }
 
 nav .fa {
@@ -220,7 +220,7 @@ h1 {
 }
 
 .s-icons img:hover {
-  scale: 1.15;
+  transform: scale(1.15);
   transition: 0.5s;
 }
 
@@ -233,7 +233,7 @@ h1 {
 .skills-col:hover,
 .skills1-col:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  scale: 1.02;
+  transform: scale(1.02);
 }
 
 /* Portfolio */
@@ -362,7 +362,7 @@ h1 {
 }
 
 .row1:hover img {
-  scale: 1.05;
+  transform: scale(1.05);
 }
 
 .row1:hover .layer {
@@ -370,7 +370,7 @@ h1 {
 }
 
 .layer a:hover {
-  scale: 1.1;
+  transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -405,7 +405,7 @@ h1 {
 }
 
 .arrow i:hover {
-  scale: 1.2;
+  transform: scale(1.2);
   background: var(--text-color);
   color: var(--highlight-color);
   cursor: pointer;
@@ -449,7 +449,7 @@ h1 {
   .nav-links {
     position: fixed;
     background: var(--highlight-color);
-    height: 100dvh;
+    height: 100vh;
     width: 180px;
     top: 0;
     right: -180px;
