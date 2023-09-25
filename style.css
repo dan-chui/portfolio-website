@@ -354,8 +354,14 @@ h1 {
 
 .portfolio-icons {
   display: flex;
+  /* text-align: left; */
   gap: 30px;
 }
+
+/* .portfolio-icons a {
+  display: grid;
+  flex-direction: column;
+} */
 
 .row1:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
@@ -460,7 +466,7 @@ h1 {
   nav .fa {
     display: block;
     color: var(--text-color);
-    margin: 35px;
+    margin: 32px;
     font-size: 22px;
     cursor: pointer;
   }
@@ -496,17 +502,8 @@ h1 {
 }
 
 @media (min-width: 1701px) {
-  .main-text p {
-    text-align: justify;
-  }
   #portfolio {
     margin: 40px 20px;
-  }
-  section {
-    padding: 30px 3%;
-  }
-  .end {
-    padding: 15px 3%;
   }
   .layer h4 {
     font-size: 46px;
@@ -517,8 +514,11 @@ h1 {
   .layer a {
     font-size: 1.3rem;
   }
+  .layer a span {
+    margin-left: -10px;
+  }
   .layer i {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     width: 50px;
     height: 50px;
   }
@@ -533,6 +533,9 @@ h1 {
   }
   .layer a {
     font-size: 1.1rem;
+  }
+  .layer a span {
+    margin-left: -5px;
   }
   .layer i {
     font-size: 1.7rem;
@@ -551,6 +554,9 @@ h1 {
   .layer a {
     font-size: 0.95rem;
   }
+  .layer a span {
+    margin-left: -5px;
+  }
   .layer i {
     font-size: 1.7rem;
     width: 45px;
@@ -568,8 +574,11 @@ h1 {
   .layer a {
     font-size: 0.92rem;
   }
+  .layer a span {
+    margin-left: -2px;
+  }
   .layer i {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     width: 45px;
     height: 45px;
   }
@@ -591,6 +600,9 @@ h1 {
   .layer a {
     font-size: 0.85rem;
   }
+  .layer a span {
+    margin-left: -5px;
+  }
   .layer i {
     font-size: 1.1rem;
     width: 35px;
@@ -609,7 +621,7 @@ h1 {
     font-size: 0.85rem;
   }
   .layer i {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     width: 45px;
     height: 45px;
   }
@@ -689,18 +701,18 @@ h1 {
     font-size: 0.65rem;
   }
   .layer i {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     width: 35px;
     height: 35px;
   }
 }
 
-@media (min-width: 2400px) {
+@media (min-width: 2300px) {
   .wrapper,
   .header-wrapper {
     margin-right: auto;
     margin-left: auto;
-    max-width: 2400px;
+    max-width: 2300px;
     padding: 0;
     object-fit: contain;
   }
@@ -711,7 +723,7 @@ h1 {
     min-height: 60vh;
   }
   .wrapper .main-text p {
-    max-width: 1800px;
+    max-width: 1700px;
     display: inline-block;
   }
 }
