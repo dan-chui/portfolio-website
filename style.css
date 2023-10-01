@@ -209,7 +209,7 @@ h1 {
 
 .skills-col h3 {
   color: var(--text-color);
-  font-size: 36px;
+  font-size: 40px;
   user-select: none;
 }
 
@@ -225,7 +225,7 @@ h1 {
 }
 
 .skills-col img {
-  margin: 10px;
+  margin: 10px 10px 1px 10px;
   height: 45px;
   width: 45px;
 }
@@ -234,6 +234,18 @@ h1 {
 .skills1-col:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   transform: scale(1.02);
+}
+
+.icon-box {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+}
+
+.caption {
+  display: block;
+  font-size: 0.75rem;
 }
 
 /* Portfolio */
@@ -443,11 +455,11 @@ h1 {
     font-size: 38px;
   }
   .main-text h1 {
-    font-size: 42px;
+    font-size: 44px;
     margin-top: 35px;
   }
   .skills-col h3 {
-    font-size: 30px;
+    font-size: 34px;
   }
   .nav-links ul li {
     display: block;
