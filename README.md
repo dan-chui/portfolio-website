@@ -2,9 +2,9 @@
 
 ## 💻 Project
 
-Welcome to the repository for my Portfolio Website.  
+Welcome to the repository for my [Portfolio Website](https://www.danchui.dev/) 
 
-This website showcases my frontend and full-stack projects. Each project includes a brief description, the technologies used, and links to the live site and source code. 
+This website showcases my Front-end and Full-Stack projects. Each project includes a brief description, the technologies used, and links to the live site and source code. Please visit the project's source code page for a more detailed description.
 
 I consistently work on new projects using different technologies, and update this Portfolio to highlight my skills in web development.
 
