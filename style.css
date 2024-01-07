@@ -199,7 +199,7 @@ h1 {
 }
 
 .skills-col {
-  flex-basis: 45%;
+  flex-basis: 30%;
   background: var(--box-color2);
   border-radius: 10px;
   margin-bottom: 7%;
@@ -663,6 +663,9 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(275px, auto));
     margin: 1.5rem;
     gap: 1.5rem;
+  }
+  .row {
+    flex-direction: column;
   }
 }
 
